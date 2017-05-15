@@ -1,0 +1,36 @@
+﻿生成启动时间为 2017/5/5 17:26:53。
+     1>项目“C:\Users\702\Desktop\C++\STL\STL\STL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\STL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(22): error C2248: “A<T>::operator ()”: 无法访问 private 成员(在“A<T>”类中声明)
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\702\desktop\c++\stl\stl\main.cpp(9) : 参见“A<T>::operator ()”的声明
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(32): 参见对正在编译的函数 模板 实例化“_Fn1 std::_For_each<int*,_Fn1>(_InIt,_InIt,_Fn1)”的引用
+                 with
+                 [
+                     _Fn1=A<int>,
+                     _InIt=int *
+                 ]
+                 c:\users\702\desktop\c++\stl\stl\main.cpp(26): 参见对正在编译的函数 模板 实例化“_Fn1 std::for_each<std::_Vector_iterator<_Myvec>,A<T>>(_InIt,_InIt,_Fn1)”的引用
+                 with
+                 [
+                     _Fn1=A<int>,
+                     _Myvec=std::_Vector_val<int,std::allocator<int>>,
+                     T=int,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<int,std::allocator<int>>>
+                 ]
+     1>已完成生成项目“C:\Users\702\Desktop\C++\STL\STL\STL.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.46
